@@ -78,6 +78,7 @@ const ComputersCanvas = () => {
       <mesh>
         <Suspense fallback={<CanvasLoader />}>
           <OrbitControls
+            autoRotate
             enableZoom={false}
             minDistance={400}
             maxDistance={600}
@@ -87,7 +88,7 @@ const ComputersCanvas = () => {
             maxPolarAngle={Math.PI * 0.55}
             enablePan={false}
             rotateSpeed={1}
-            zoomSpeed={3}
+            // zoomSpeed={3}
             target={-1}
           />
 

@@ -44,9 +44,9 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px] space-y-5">
         <p>
-          An accomplished software developer, I specialize in TypeScript and
-          JavaScript, showcasing advanced skills in frameworks like React,
-          Node.js, and Three.js.
+          As an software developer, I specialize in TypeScript and JavaScript,
+          showcasing advanced skills in frameworks like React, Node.js, and
+          Three.js.
         </p>
         <p>
           My track record includes successful collaboration with clients to

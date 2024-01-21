@@ -20,9 +20,7 @@ const Hero = () => {
             Hi, I'm <span className="text-[#915EFF]">Billy</span>
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-            I develop 3D models | user
-            {/* <br className="sm:block hidden" /> */}
-            interfaces | web applications
+            I develop 3D Models | User Interfaces | Web Applications
           </p>
         </div>
       </div>
@@ -32,7 +30,7 @@ const Hero = () => {
         shadows
         dpr={[1, 2]}
         // camera={{ position: [20, 3, 5], fov: 500 }}
-        camera={{ position: [-50, -20, 500], fov: 75 }}
+        camera={{ position: [20, 3, 500], fov: 75 }}
         // camera={{ position: [0, 0, 11], fov: 75 }}
         gl={{ preserveDrawingBuffer: false }}>
         <ComputersCanvas />
