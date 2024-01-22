@@ -3,7 +3,6 @@ import { motion } from "framer-motion";
 import { styles } from "../styles";
 // import littleTokyo from "./canvas/littleTokyo";
 import { ComputersCanvas } from "./canvas";
-import { Canvas } from "@react-three/fiber";
 
 const Hero = () => {
   return (
@@ -25,16 +24,7 @@ const Hero = () => {
         </div>
       </div>
 
-      <Canvas
-        frameloop="demand"
-        shadows
-        dpr={[1, 2]}
-        // camera={{ position: [20, 3, 5], fov: 500 }}
-        camera={{ position: [20, 3, 500], fov: 75 }}
-        // camera={{ position: [0, 0, 11], fov: 75 }}
-        gl={{ preserveDrawingBuffer: false }}>
-        <ComputersCanvas />
-      </Canvas>
+      <ComputersCanvas />
 
       <div className="absolute xs:bottom-10 bottom-32 w-full flex justify-center items-center">
         <a href="#about">

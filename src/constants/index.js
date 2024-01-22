@@ -69,14 +69,14 @@ const technologies = [
     name: "TypeScript",
     icon: typescript,
   },
-  {
-    name: "HTML 5",
-    icon: html,
-  },
-  {
-    name: "CSS 3",
-    icon: css,
-  },
+  // {
+  //   name: "HTML 5",
+  //   icon: html,
+  // },
+  // {
+  //   name: "CSS 3",
+  //   icon: css,
+  // },
   {
     name: "Tailwind CSS",
     icon: tailwind,
@@ -97,10 +97,10 @@ const technologies = [
     name: "MongoDB",
     icon: mongodb,
   },
-  {
-    name: "mysql",
-    icon: mysql,
-  },
+  // {
+  //   name: "mysql",
+  //   icon: mysql,
+  // },
   {
     name: "Three JS",
     icon: threejs,
@@ -113,10 +113,10 @@ const technologies = [
     name: "docker",
     icon: docker,
   },
-  {
-    name: "podman",
-    icon: podman,
-  },
+  // {
+  //   name: "podman",
+  //   icon: podman,
+  // },
 ];
 
 const experiences = [
