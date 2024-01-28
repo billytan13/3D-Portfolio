@@ -21,10 +21,8 @@ import stLogo from "./../assets/company/stLogo.png";
 import gfLogo from "./../assets/company/gfLogo.png";
 import chuanWu from "./../assets/company/chuanWu.jpeg";
 import gerry from "./../assets/company/gerry.jpeg";
-
-import podman from "./../assets/tech/podman.png";
-import mysql from "./../assets/tech/mysql.jpg";
-import kanban from "./../assets/tech/kanban.png";
+import sprintsync from "./../assets/tech/sprintsync.png";
+import propertywebsite from "./../assets/tech/propertywebsite.jpg";
 
 export const navLinks = [
   {
@@ -215,9 +213,9 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Kanban Task Manager Application",
+    name: "SprintSync Task Manager Application",
     description:
-      "web-based, kanban-style, list-making application that allows teams to manage projects and tasks. Included user-specific access control, secure login, and user account settings for email and password changes.",
+      "web-based, kanban-style, task management application that includes story point voting, and DevOps branching strategy.",
 
     tags: [
       {
@@ -229,11 +227,11 @@ const projects = [
         color: "orange-text-gradient",
       },
       {
-        name: "MongoDB",
+        name: "MySQL",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "Tailwindcss",
         color: "pink-text-gradient",
       },
       {
@@ -241,30 +239,35 @@ const projects = [
         color: "violet-text-gradient",
       },
     ],
-    image: kanban,
-    source_code_link: "https://github.com/",
+    image: sprintsync,
+    source_code_link:
+      "https://sprintsync-9ymzh0z17-billys-projects-39e80502.vercel.app",
   },
-  // {
-  //   name: "Job IT",
-  //   description:
-  //     "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
-  //   tags: [
-  //     {
-  //       name: "react",
-  //       color: "blue-text-gradient",
-  //     },
-  //     {
-  //       name: "restapi",
-  //       color: "green-text-gradient",
-  //     },
-  //     {
-  //       name: "scss",
-  //       color: "pink-text-gradient",
-  //     },
-  //   ],
-  //   image: jobit,
-  //   source_code_link: "https://github.com/",
-  // },
+  {
+    name: "Real Estate Booking Website",
+    description:
+      "My personal real estate booking website, that displays my property listing for clients that are looking to buy, sell or rent a property. Clients can also schedule a booking with me for their property consultant needs.",
+    tags: [
+      {
+        name: "Javascript",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "ReactJs",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "MySQL",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Material-UI",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: propertywebsite,
+    source_code_link: "https://www.propertywithbts.com",
+  },
   // {
   //   name: "Trip Guide",
   //   description:
